@@ -8,19 +8,19 @@ img {
 }
 
 body {
-    font-family: "Playfair Display SC", serif;
+    font-family: "Playfair Display SC", "Georgia", serif;
     font-size: 40px;
     font-weight: 900;
 }
 
 p:first-of-type {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", "Arial", sans-serif;
     font-size: 30px;
     font-weight: 300;
 }
 
 p:last-of-type {
-    font-family: "Playfair Display", serif;
+    font-family: "Playfair Display", "Georgia", serif;
     font-size: 40px;
     font-weight: 700;
 }
