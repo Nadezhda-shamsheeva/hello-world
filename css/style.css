@@ -47,14 +47,24 @@ a {
 
 .nav {
     position: relative;
-    min-height: 78px;
+    min-height: 68px;
+    display: flex;
+    flex-direction: row;
     background-color: #ffffff;
 }
 
 .logo {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
     width: 178px;
     height: 40px;
+    padding-top: 19px;
     text-transform: uppercase;
+}
+
+.logo img {
+    padding-right: 20px;
 }
 
 .logo p:first-of-type {
@@ -72,14 +82,36 @@ a {
 }
 
 .phone-number {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    padding-top: 32px;
     font-family: inherit;
     font-size: 26px;
     font-weight: inherit;
     line-height: 26px;
 }
 
-.phone-number.bold {
+.phone-number p {
+    margin-left: 50px;
+}
+
+.phone-number span {
     font-weight: 700;
+}
+
+.viber {
+    margin-left: auto;
+    padding-top: 10px;
+    width: 160px;
+    height: 35px;
+    text-align: center;
+    border: 1px solid #000000;
+}
+
+.viber a {
+    font-size: 14px;
+    color: #000000;
 }
 
 
